@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import AboutImg from '../../assets/profile.jpeg'
+import AboutImg from '../../assets/profile2.jpg'
 import CV from '../../assets/Vishal-cv.pdf'
 import Info from './Info'
 
@@ -15,14 +15,12 @@ const About = () => {
         <div className='about__data'>
           <Info />
 
-          <p className='about__description'>I am currently pursuing a Bachelor's degree
-            in Computer Science and Engineering, driven by a passion for Web Development.
-            My expertise lies in the MERN stack, where I leverage my skills to build dynamic,
-            robust applications. Beyond my technical pursuits, I am an active National Cadet Corps
-            (NCC) cadet, embracing leadership, teamwork, and community service.
+          <p className='about__description'>I am currently pursuing a Bachelor's degree in Computer Science at Netaji Subhas University of Technology (NSUT), driven by a passion for Web Development. My expertise lies in the MERN stack, where I build dynamic, scalable applications. Additionally, I have strong problem-solving skills from competitive programming in Java and a solid foundation in full-stack development and machine learning. I am always eager to learn, innovate, and contribute to impactful projects.
+
+
           </p>
 
-          <a target="_blank" href={"https://docs.google.com/document/d/1qn3W0DLuKvnrGd5qkDPmQvbko3we2-oOYVmApbv1fvE/edit?usp=sharing"} className='button button--flex'>View CV
+          <a target="_blank" href={"https://drive.google.com/file/d/1NyecP2GJZtjzzUEkVep-k51l0Uf-wWT5/view?usp=sharing"} className='button button--flex'>View Resume
             <svg
               className="button__icon"
               xmlns="http://www.w3.org/2000/svg"

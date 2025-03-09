@@ -7,9 +7,7 @@ const Data = ({ isDark }) => {
       </h1>
       <h3 className='home__subtitle'>{`<h3> Full Stack Developer </h3>`}</h3>
       <p className='home__description'>
-        I'm a Full Stack Developer based in New Delhi and
-        highly passionate about programming, computer science
-        and technology.
+      Full-stack developer skilled in Java, with strong problem-solving abilities and building efficient applications . Exploring machine learning to integrate AI-driven innovations. 
       </p>
 
       <a href='#contact' className='button button--flex'>Say Hello
