@@ -11,7 +11,7 @@
 .qualification__button {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
-    color: gray;
+    color: gray ;
     margin: 0 var(--mb-1);
     cursor: pointer;
     transition: opacity 0.3s ease, color 0.3s ease;
@@ -48,6 +48,7 @@
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;
+    color: var(--text-color);
 }
 
 .qualification__title {
@@ -59,6 +60,7 @@
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
+    
 }
 
 .qualification__calendar {

@@ -24,15 +24,53 @@ const educationData = [
 
 const experienceData = [
   {
+    title: "Software Intern",
+    subtitle: "Developed an AI SaaS Application",
+    period: "Nov 2024 - Dec 2024",
+    role: "NextJS Developer"
+  },
+  {
     title: "Technical Intern",
     subtitle: "TechSaksham : Edunet Foundation",
     period: "Feb 2025 - March 2025",
     role: "Intern"
   },
 ];
+// Leetcode GeeksForGeeks Codeforces Codechef
+const achievementData =[
+  {
+    title: "Achieved 1991 rating",
+    subtitle: "Leetcode",
+    period: "September 2024",
+    cgpa: "Knight Badge",
+    link:"https://leetcode.com/u/vinay_kh/"
+  },
+  {
+    title: "Achieved a rating of 1755",
+    subtitle: "CodeChef",
+    period: "December 2024",
+    cgpa: "3⭐ Badge",
+    link:"https://www.codechef.com/users/vinaykhatri292"
+  },
+  {
+    title: "Achieved 2046 rating",
+    subtitle: "GeeksForGeeks",
+    period: "January 2025",
+    cgpa: "5⭐ Badge",
+    link:"https://www.geeksforgeeks.org/user/vinaykhamjtz/"
+  },
+  
+  {
+    title: "Have a rating of 1448",
+    subtitle: "Codeforces",
+    period: "February 2024",
+    cgpa: "Specialist",
+    link:"https://codeforces.com/profile/vinaykhatri292"
+  }
+]
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = useState(2);
+  const [toggleState, setToggleState] = useState(1);
   
   const toggleTab = (index) => {
     setToggleState(index);
@@ -114,6 +152,14 @@ const Qualification = () => {
           >
             <i className='uil uil-briefcase-alt qualification__icon'></i>{"  "}Experience
           </div>
+
+          <div 
+            className={`qualification__button ${toggleState === 3 ? 'qualification__active' : ''} button--flex`}
+            onClick={() => toggleTab(3)}
+          >
+            <i className='uil uil-graduation-cap qualification__icon'></i>
+            {"  "}Achievements
+          </div>
         </div>
 
         <div className='qualification__sections'>
@@ -136,6 +182,18 @@ const Qualification = () => {
                 index={index}
                 total={experienceData.length}
               />
+            ))}
+          </div>
+
+          <div className={`qualification__content ${toggleState === 3 ? 'qualification__content-active' : ''}`}>
+            {achievementData.map((item, index) => (
+              <a href={item.link} key={index} target="_blank" rel="noreferrer">
+                <QualificationItem 
+                  data={item} 
+                  index={index}
+                  total={achievementData.length}
+                />
+              </a>
             ))}
           </div>
         </div>

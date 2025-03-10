@@ -20,18 +20,18 @@ const Footer = () => {
             </ul>
 
             <div className='footer__social'>
-                  <a href='https://github.com/vin-00' className='footer__social-icon' target='_blank'>
-        <i className='uil uil-github-alt'></i>
-        </a>
-                  <a href='https://www.linkedin.com/in/vinay-khatri-751607273/' className='footer__social-icon' target='_blank'>
-        <i className="uil uil-linkedin"></i>
-        </a>
-                  <a href='https://twitter.com/iamvishalrathi1' className='footer__social-icon' target='_blank'>
-        <i className='uil uil-twitter'></i>
-        </a>
-                  <a href='https://www.instagram.com/vinay_khatri29/' className='footer__social-icon' target='_blank'>
-            <i className='uil uil-instagram'></i>
-        </a>
+                <a href='https://github.com/vin-00' className='footer__social-icon' target='_blank'>
+                    <i className='uil uil-github-alt'></i>
+                </a>
+                <a href='https://www.linkedin.com/in/vinay-khatri-751607273/' className='footer__social-icon' target='_blank'>
+                    <i className="uil uil-linkedin"></i>
+                </a>
+                <a href='mailto: vinaykhatri292@gmail.com' className='footer__social-icon' target='_blank'>
+                    <i className='uil uil-envelope'></i>
+                </a>
+                <a href='https://www.instagram.com/vinay_khatri29/' className='footer__social-icon' target='_blank'>
+                    <i className='uil uil-instagram'></i>
+                </a>
             </div>
             <span className='footer__copy'>&#169; All rights reserved</span>
         </div>
