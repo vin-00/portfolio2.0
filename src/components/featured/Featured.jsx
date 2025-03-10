@@ -9,52 +9,65 @@ const Featured = () => {
     {
       id: 1,
       type: 'achievement',
-      title: "Top 10 | HackBlocks1.0",
-      platform: "BVCOE & Microsoft Azure",
-      date: "May 2024",
-      image: "/featured/Hackblock1.0.jpg",
+      title: "Participated in Grid 6.0",
+      platform: "Flipkart Grid 6.0",
+      date: "August 2024",
+      image: "/featured/flipkart6.0.jpg",
       pinned: true,
-      link: "https://www.linkedin.com/posts/iamvishalrathi_project-web3-blockchain-activity-7195300104231133184-3MkR?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMC-BcB4FOXBMr2BSNkVDjR6ivXZywfAoI"
     },
     {
       id: 2,
       type: 'achievement',
-      title: "3rd Position | Logic Maze",
-      platform: "TechCom MAIT",
+      title: "Placed in Top 10 teams",
+      platform: "InnoHacks 2024",
       date: "March 2024",
-      image: "/featured/Logic Maze.jpg",
+      image: "/featured/Innohacks.jpg",
       pinned: true,
-      link: "https://www.linkedin.com/posts/iamvishalrathi_logicmazecompetition-techcom-mait-activity-7176797454900633600-HgSm?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMC-BcB4FOXBMr2BSNkVDjR6ivXZywfAoI"
     },
     {
       id: 3,
       type: 'social',
-      title: "GenAI BOOTCAMP",
-      platform: "Microsoft Azure",
-      date: "May 2024",
-      image: "/featured/GenAI BOOTCAMP.png",
+      title: "HTML CSS BootCamp",
+      platform: "Lets Upgrade",
+      date: "August 2023",
+      image: "/featured/htmlCss.jpg",
       pinned: false,
-      link: "https://www.linkedin.com/posts/iamvishalrathi_reskill-azuredevelopercommunity-generativeaibootcamp-activity-7194638808364060673-zqIL?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMC-BcB4FOXBMr2BSNkVDjR6ivXZywfAoI"
     },
     {
       id: 4,
-      type: 'social',
-      title: "UAS Bootcamp",
-      platform: "C-DAC",
-      date: "Aug 2024",
-      image: "/featured/Drone_UAS Workshop.jpg",
+      type: 'achievement',
+      title: "HackOn With Amazon Season 4",
+      platform: "Amazon",
+      date: "June 2024",
+      image: "/featured/amazon.jpg",
       pinned: false,
-      link: "https://www.linkedin.com/posts/iamvishalrathi_uas-dronetechnology-capacitybuilding-activity-7232765162896666624-BWd7?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMC-BcB4FOXBMr2BSNkVDjR6ivXZywfAoI"
     },
     {
       id: 5,
-      type: 'social',
-      title: "Kartavya Fest",
-      platform: "National Cadet Corps",
-      date: "March 2024",
-      image: "/featured/KARTAVYA'24.jpg",
+      type: 'achievement',
+      title: "Code Cubicle 2.0",
+      platform: "Geek Room",
+      date: "July 2024",
+      image: "/featured/CodeCubicle.jpg",
       pinned: false,
-      link: "https://www.linkedin.com/posts/iamvishalrathi_mait-ncc-teamwork-activity-7187393601620905984-2e7z?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMC-BcB4FOXBMr2BSNkVDjR6ivXZywfAoI"
+    },
+    {
+      id: 6,
+      type: 'social',
+      title: "DevTown Community",
+      platform: "DevTown",
+      date: "September 2023",
+      image: "/featured/Devtown.jpg",
+      pinned: false,
+    },
+    {
+      id: 7,
+      type: 'achievement',
+      title: "Secured AIR 190 in Code Combat",
+      platform: "Coding Ninjas",
+      date: "May 2023",
+      image: "/featured/codeCombat.jpg",
+      pinned: false,
     },
   ].sort((a, b) => {
     // First sort by pinned status
@@ -108,9 +121,6 @@ const Featured = () => {
             <div className="featured__content">
               <h3 className="featured__title">{item.title}</h3>
               <span className="featured__date">{item.date}</span>
-              <a href={item.link} target="_blank" className='featured__button'> View
-                <i className='bx bx-right-arrow-alt featured__button-icon'></i>
-              </a>
             </div>
           </article>
         ))}

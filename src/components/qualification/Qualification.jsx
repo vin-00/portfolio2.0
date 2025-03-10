@@ -4,43 +4,31 @@ import './qualification.css'
 const educationData = [
   {
     title: "BTech CSE",
-    subtitle: "Maharaja Agrasen Institute of Technology, Delhi",
+    subtitle: "Netaji Subhas University of Technology, Delhi",
     period: "2022-2026",
-    cgpa: "8.398 CGPA"
+    cgpa: "8.92 CGPA"
   },
   {
     title: "Senior Secondary School",
-    subtitle: "Kendriya Vidyalaya, Delhi",
+    subtitle: "DAV Centenary Public School, Delhi",
     period: "2020-2022",
-    cgpa: "94% in CBSE Board"
+    cgpa: "98.2% in CBSE 12th Board"
   },
   {
     title: "Secondary School",
     subtitle: "D.A.V. Centenary Public School, Delhi",
     period: "2014-2020",
-    cgpa: "93.4% in CBSE Board"
+    cgpa: "95.6% in CBSE 10th Board"
   }
 ];
 
 const experienceData = [
   {
-    title: "Full Stack Developer",
-    subtitle: "Truxie Startup",
-    period: "Nov 2024 - Present",
+    title: "Technical Intern",
+    subtitle: "TechSaksham : Edunet Foundation",
+    period: "Feb 2025 - March 2025",
     role: "Intern"
   },
-  {
-    title: "National Cadet Corps",
-    subtitle: "MAIT",
-    period: "2022-2025",
-    role: "Corporal"
-  },
-  {
-    title: "Full Stack Developer",
-    subtitle: "CoderOne",
-    period: "Jun 2024 - Aug 2024",
-    role: "Intern"
-  }
 ];
 
 const Qualification = () => {
