@@ -1,94 +1,104 @@
-import Work1 from '../../assets/work1.png'
-import Work2 from '../../assets/work2.png'
-import Work3 from '../../assets/work3.png'
-import Work4 from '../../assets/work4.png'
-import Work5 from '../../assets/work5.png'
-import Work6 from '../../assets/work6.png'
-import Work7 from '../../assets/work7.png'
-import Work8 from '../../assets/work8.png'
-import Work9 from '../../assets/work9.png'
+import DevPad from "../../assets/devpad.png"
+import Visualizer from "../../assets/visualizer.webp"
+import simon_game from '../../assets/simon_game.png'
+import Weather from '../../assets/weather.png'
+import Calendar from '../../assets/calendar.png'
+import Netflix from "../../assets/netflix.webp"
+import TravelNest from "../../assets/travelNest.png"
+import SharePrompt from "../../assets/sharePrompt.png"
+import money from "../../assets/money.png"
+import chat from "../../assets/whatsapp.webp"
 
 export const projectsData = [
     {
         id: 1,
-        image: Work1,
-        title: 'Podcastr',
-        category: 'major',
-        link: 'https://my-podcastr.vercel.app/',
-        github: 'https://github.com/iamvishalrathi/Podcastr',
-        description: 'An AI-powered SaaS podcast streaming platform by Next.js.'
-    },
-    {
-        id: 2,
-        image: Work2,
-        title: 'Chatterly ChatApp',
-        category: 'major',
-        link: 'https://chatterly-hp0h.onrender.com/signup',
-        github: 'https://github.com/iamvishalrathi/Chatterly-ChatApp',
-        description: 'A real-time chat application using Socket.io and React.'
-    },
-    {
-        id: 3,
-        image: Work3,
-        title: 'Voyage Vista',
-        category: 'clone',
-        link: 'https://voyage-vista-project.onrender.com/listings',
-        github: 'https://github.com/iamvishalrathi/Voyage-Vista',
-        description: 'An Airbnb clone with search and booking functionalities.'
-    },
-    {
-        id: 4,
-        image: Work4,
-        title: 'SharePrompt',
-        category: 'clone',
-        link: 'https://shareprompt.onrender.com/',
-        github: 'https://github.com/iamvishalrathi/SharePrompt',
-        description: 'A platform for sharing prompts and creative writing ideas.'
-    },
-    {
-        id: 5,
-        image: Work5,
+        image: DevPad,
         title: 'DevPad',
         category: 'major',
         link: 'https://devpad2-0.onrender.com/',
-        github: 'https://github.com/iamvishalrathi/DevPad',
-        description: 'An online code editor with real-time collaboration features.'
+        github: 'https://github.com/vin-00/Devpad2.0',
+        description: 'A real-time collaborative web application for writing and testing HTML, CSS, and JavaScript code.'
+    },
+    {
+        id: 2,
+        image: Visualizer,
+        title: 'Visualizer',
+        category: 'major',
+        link: 'https://visualize-11.netlify.app/',
+        github: 'https://github.com/vin-00/visualizer',
+        description: 'Explore and solve various classic puzzles through interactive visualizations.'
+    },
+    {
+        id: 3,
+        image: chat,
+        title: 'WhatsApp Chat Analyser',
+        category: 'major',
+        link: 'none',
+        github: 'https://github.com/vin-00/WhatsAppChatAnalyser',
+        description: 'Provides deep insights into your exported chat data.'
+    },
+    {
+        id: 4,
+        image: money,
+        title: 'Money Tracker',
+        category: 'major',
+        link: 'https://money-tracker-cd74a4.netlify.app/',
+        github: 'https://github.com/vin-00/Money-Tracker',
+        description: 'Allows users to efficiently manage their expenses and incomes across various categories.'
+    },
+    {
+        id: 5,
+        image: TravelNest,
+        title: 'TravelNest',
+        category: 'clone',
+        link: 'https://travelnest-8w76.onrender.com/listings',
+        github: 'https://github.com/vin-00/TravelNest',
+        description: 'An Airbnb clone with search and booking functionalities.'
     },
     {
         id: 6,
-        image: Work6,
-        title: 'Sky Tracer',
-        category: 'minor',
-        link: 'https://sky-tracer.netlify.app/',
-        github: 'https://github.com/iamvishalrathi/Sky-Tracer',
-        description: 'A weather tracking application with real-time updates.'
+        image: SharePrompt,
+        title: 'Share Prompt',
+        category: 'clone',
+        link: 'https://share-prompt-r1avkcf0q-vinays-projects-5b0b564c.vercel.app/',
+        github: 'https://github.com/vin-00/share-prompt',
+        description: 'A platform for sharing prompts and creative writing ideas.'
     },
     {
         id: 7,
-        image: Work7,
-        title: 'Budget Buddy',
-        category: 'minor',
-        link: 'https://my-budget-buddy.netlify.app/',
-        github: 'https://github.com/iamvishalrathi/budget-buddy',
-        description: 'An expense tracking application to manage finances.'
+        image: Netflix,
+        title: 'Netflix Clone',
+        category: 'clone',
+        link: 'none',
+        github: 'https://github.com/vin-00/Netflix_clone',
+        description: 'A simplified Netflix clone created using HTML, CSS, and JavaScript.'
     },
     {
         id: 8,
-        image: Work8,
-        title: 'Simon Game',
+        image: Weather,
+        title: 'Weather Widget',
         category: 'minor',
-        link: 'https://simon-brain-game.netlify.app/',
-        github: 'https://github.com/iamvishalrathi/Simon-Game',
-        description: 'A fun and interactive memory game.'
+        link: 'https://weather-widget-00.netlify.app/',
+        github: 'https://github.com/vin-00/Weather-Widget',
+        description: 'A simple and customizable tool to display current weather information for a specific city.'
     },
     {
         id: 9,
-        image: Work9,
-        title: 'Spotify Clone',
-        category: 'clone',
-        link: 'https://listen-spotify.netlify.app/',
-        github: 'https://github.com/iamvishalrathi/Spotify-Clone',
-        description: 'A clone of the popular music streaming service Spotify.'
+        image: Calendar,
+        title: 'DayWise',
+        category: 'minor',
+        link: 'https://daywise.netlify.app/',
+        github: 'https://github.com/vin-00/Calender',
+        description: 'A user-friendly event management application .'
+    },
+    {
+        id: 10,
+        image: simon_game,
+        title: 'Simon Game',
+        category: 'minor',
+        link: 'none',
+        github: 'https://github.com/vin-00/simonGame',
+        description: 'A classic memory game that will test and enhance your memory .'
     },
 ]
 

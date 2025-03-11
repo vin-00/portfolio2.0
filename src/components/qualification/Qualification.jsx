@@ -3,10 +3,10 @@ import './qualification.css'
 
 const educationData = [
   {
-    title: "BTech CSE",
-    subtitle: "Netaji Subhas University of Technology, Delhi",
-    period: "2022-2026",
-    cgpa: "8.92 CGPA"
+    title: "Secondary School",
+    subtitle: "D.A.V. Centenary Public School, Delhi",
+    period: "2014-2020",
+    cgpa: "95.6% in CBSE 10th Board"
   },
   {
     title: "Senior Secondary School",
@@ -15,10 +15,10 @@ const educationData = [
     cgpa: "98.2% in CBSE 12th Board"
   },
   {
-    title: "Secondary School",
-    subtitle: "D.A.V. Centenary Public School, Delhi",
-    period: "2014-2020",
-    cgpa: "95.6% in CBSE 10th Board"
+    title: "BTech CSE",
+    subtitle: "Netaji Subhas University of Technology, Delhi",
+    period: "2022-2026",
+    cgpa: "8.92 CGPA"
   }
 ];
 

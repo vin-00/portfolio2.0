@@ -10,7 +10,7 @@ const Social = () => {
         <i className="uil uil-linkedin"></i>
         </a>
       <a href='mailto: vinaykhatri292@gmail.com' className='home__social-icon' target="_blank">
-        <i class="uil uil-envelope"></i>
+        <i className="uil uil-envelope"></i>
       </a>
       <a href='https://www.instagram.com/vinay_khatri29/' className='home__social-icon' target="_blank">
             <i className='uil uil-instagram'></i>
