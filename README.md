@@ -1,6 +1,5 @@
 # Vinay Khatri's Portfolio  
-
----  
+[Website](https://iamvinaykhatri.netlify.app/)
 
 👋 **Welcome**  
 Welcome to my portfolio website! This site showcases my skills, projects, and experience as a **Software Developer**. It serves as a central hub for my professional presence online.  
