@@ -8,6 +8,7 @@ const Contact = () => {
     message: ''
   });
   const [error, setError] = useState('');
+  const [submitStatus, setSubmitStatus] = useState('Send Message');
 
   // Spam detection functions
   const isSpamContent = (text) => {
@@ -56,7 +57,7 @@ const Contact = () => {
     if (error) setError('');
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     
     // Name validation
@@ -102,9 +103,32 @@ const Contact = () => {
       return;
     }
 
-    // If all validations pass, submit the form
-    const form = e.target;
-    form.submit();
+    setSubmitStatus('Sending...');
+    let ak = import.meta.env.VITE_ACCESS_KEY
+    let a = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: JSON.stringify({
+          access_key: `${ak}`,
+          name: `${formData.name}`,
+          email:`${formData.email}`,
+          message: `${formData.message}`
+        }),
+        headers: {
+          "Content-type": "application/json; charset=UTF-8"
+        }
+      });
+
+    let res = await a.json();
+    if(res.success){
+      setSubmitStatus('Sent Successfully ');
+      setFormData({ name: '', email: '', message: '' });
+    }
+
+    else{
+      setSubmitStatus('Error Occurred ');
+    }
+    setTimeout(() => setSubmitStatus('Send Message'), 3000);
+
   };
 
   return (
@@ -114,8 +138,7 @@ const Contact = () => {
 
       <div className='contact__container container grid'>
         <div className='contact__content'>
-          {/* <h3 className='contact__title'>Talk to me</h3> */}
-
+          
           <div className='contact__info'>
             <div className='contact__card'>
               <i className='bx bx-mail-send contact__card-icon'></i>
@@ -145,20 +168,13 @@ const Contact = () => {
               </a>
             </div>
 
-            {/* <div className='contact__card'>
-              <i className='uil uil-location-point contact__card-icon'></i>
-
-              <h3 className='contact__card-title'>Location</h3>
-              <span className='contact__card-data'>New Delhi, India</span>
-            </div> */}
+            
           </div>
         </div>
         <div className='contact__content'>
-          {/* <h3 className='contact__title'>Write me your message</h3> */}
-
           <form 
             className='contact__form' 
-            action="https://formspree.io/f/xovjwvqz"
+            action=""
             method="POST"
             onSubmit={handleSubmit}
           >
@@ -199,7 +215,7 @@ const Contact = () => {
                 onChange={handleChange}
               ></textarea>
             </div>
-            <button type='submit' className='button button--flex'>Send Message
+            <button type='submit' className='button button--flex'>{submitStatus}
               <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
