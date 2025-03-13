@@ -39,7 +39,7 @@ const experienceData = [
 // Leetcode GeeksForGeeks Codeforces Codechef
 const achievementData =[
   {
-    title: "Achieved 1991 rating",
+    title: "Achieved 2048 rating",
     subtitle: "Leetcode",
     period: "September 2024",
     cgpa: "Knight Badge",
