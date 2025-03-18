@@ -31,4 +31,4 @@ I'm always open to discussing new projects, creative ideas, or collaboration opp
 
 ---  
 
-Built with ❤️ by **Vishal Kumar**  
+Built with ❤️ by **Vinay Khatri**  
