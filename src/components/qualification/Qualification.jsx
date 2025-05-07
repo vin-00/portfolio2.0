@@ -3,10 +3,10 @@ import './qualification.css'
 
 const educationData = [
   {
-    title: "Secondary School",
-    subtitle: "D.A.V. Centenary Public School, Delhi",
-    period: "2014-2020",
-    cgpa: "95.6% in CBSE 10th Board"
+    title: "BTech CSE",
+    subtitle: "Netaji Subhas University of Technology, Delhi",
+    period: "2022-2026",
+    cgpa: "8.92 CGPA"
   },
   {
     title: "Senior Secondary School",
@@ -15,35 +15,42 @@ const educationData = [
     cgpa: "98.2% in CBSE 12th Board"
   },
   {
-    title: "BTech CSE",
-    subtitle: "Netaji Subhas University of Technology, Delhi",
-    period: "2022-2026",
-    cgpa: "8.92 CGPA"
+    title: "Secondary School",
+    subtitle: "D.A.V. Centenary Public School, Delhi",
+    period: "2014-2020",
+    cgpa: "95.6% in CBSE 10th Board"
   }
 ];
 
 const experienceData = [
-  {
-    title: "Software Intern",
-    subtitle: "Developed an AI SaaS Application",
-    period: "Nov 2024 - Dec 2024",
-    role: "NextJS Developer"
-  },
   {
     title: "Technical Intern",
     subtitle: "TechSaksham : Edunet Foundation",
     period: "Feb 2025 - March 2025",
     role: "Intern"
   },
+  {
+    title: "Software Intern",
+    subtitle: "Developed an AI SaaS Application",
+    period: "Nov 2024 - Dec 2024",
+    role: "NextJS Developer"
+  }
 ];
 // Leetcode GeeksForGeeks Codeforces Codechef
 const achievementData =[
   {
-    title: "Achieved 2048 rating",
-    subtitle: "Leetcode",
-    period: "September 2024",
-    cgpa: "Knight Badge",
-    link:"https://leetcode.com/u/vinay_kh/"
+    title: "Secured 2nd position in AM Hackathon",
+    subtitle: "AM Hackathon IGDTU",
+    period: "April 2025",
+    cgpa: "1st Runner Up",
+    link:"https://www.linkedin.com/posts/vinay-khatri-751607273_hackathon-innovation-teamwork-activity-7315558153281064960-PjDJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAELU620B1X7KRsimJzEbjOorBnZCAWU7HNw"
+  },
+  {
+    title: "Have a rating of 1448",
+    subtitle: "Codeforces",
+    period: "February 2025",
+    cgpa: "Specialist",
+    link:"https://codeforces.com/profile/vinaykhatri292"
   },
   {
     title: "Achieved a rating of 1755",
@@ -53,20 +60,13 @@ const achievementData =[
     link:"https://www.codechef.com/users/vinaykhatri292"
   },
   {
-    title: "Achieved 2046 rating",
-    subtitle: "GeeksForGeeks",
-    period: "January 2025",
-    cgpa: "5⭐ Badge",
-    link:"https://www.geeksforgeeks.org/user/vinaykhamjtz/"
+    title: "Achieved 2048 rating",
+    subtitle: "Leetcode",
+    period: "September 2024",
+    cgpa: "Knight Badge",
+    link:"https://leetcode.com/u/vinay_kh/"
   },
   
-  {
-    title: "Have a rating of 1448",
-    subtitle: "Codeforces",
-    period: "February 2024",
-    cgpa: "Specialist",
-    link:"https://codeforces.com/profile/vinaykhatri292"
-  }
 ]
 
 const Qualification = () => {
