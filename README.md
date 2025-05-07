@@ -1,6 +1,5 @@
-# Vishal Kumar's Portfolio  
-
----  
+# Vinay Khatri's Portfolio  
+[Website](https://iamvinaykhatri.netlify.app/)
 
 👋 **Welcome**  
 Welcome to my portfolio website! This site showcases my skills, projects, and experience as a **Software Developer**. It serves as a central hub for my professional presence online.  
@@ -14,12 +13,13 @@ I'm a **Full Stack Developer** passionate about programming, computer science, a
 
 🔍 **Website Preview**  
 You can explore my portfolio live by visiting the website:  
-[**Vishal Kumar - Portfolio**](#)  
+[**Vinay Khatri - Portfolio**](https://iamvinaykhatri.netlify.app/)  
 
 ---  
 
 📸 **Screenshot**  
-*(Add an image here)*  
+ ![image](https://github.com/user-attachments/assets/d1838095-ef69-46a9-b09f-1a69d4545c39)
+
 
 ---  
 
@@ -27,8 +27,8 @@ You can explore my portfolio live by visiting the website:
 I'm always open to discussing new projects, creative ideas, or collaboration opportunities.  
 
 **Contact Details**  
-📧 Email: rajatrathi029@gmail.com  
+📧 Email: vinaykhatri292@gmail.com  
 
 ---  
 
-Built with ❤️ by **Vishal Kumar**  
+Built with ❤️ by **Vinay Khatri**  
