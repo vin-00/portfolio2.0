@@ -13,8 +13,9 @@ const Featured = () => {
       platform: "Flipkart Grid 6.0",
       date: "August 2024",
       image: "/featured/flipkart6.0.jpg",
-      pinned: true,
+      pinned: false,
     },
+    
     {
       id: 2,
       type: 'achievement',
@@ -68,6 +69,15 @@ const Featured = () => {
       date: "May 2023",
       image: "/featured/codeCombat.jpg",
       pinned: false,
+    },
+    {
+      id: 8,
+      type: 'achievement',
+      title: "Secured 2nd position in AM Hackathon",
+      platform: "AMHacks IGDTU",
+      date: "April 2025",
+      image: "/featured/amHacks.jpg",
+      pinned: true,
     },
   ].sort((a, b) => {
     // First sort by pinned status
