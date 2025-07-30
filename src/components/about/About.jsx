@@ -19,7 +19,7 @@ const About = () => {
 
           </p>
 
-          <a target="_blank" href={"https://drive.google.com/file/d/1luO6nn-GSET9C-hBylBlNTPbqJjBnFku/view?usp=sharing"} className='button button--flex'>View Resume
+          <a target="_blank" href={"https://drive.google.com/file/d/19ic8Tqowa1s4NAhKww-W_ZzwN0QZzgpC/view?usp=sharing"} className='button button--flex'>View Resume
             <svg
               className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
