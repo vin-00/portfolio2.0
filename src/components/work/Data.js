@@ -18,7 +18,7 @@ export const projectsData = [
         category: 'major',
         link: 'https://code-clash-brown.vercel.app',
         github: 'https://github.com/vin-00/codeForBharat',
-        description: 'PrepWise is an AI-powered interview preparation platform designed to help job seekers practice and improve their interview skills.'
+        description: 'An AI-powered interview preparation platform designed to help job seekers practice and improve their interview skills.'
     },
     {
         id: 1,

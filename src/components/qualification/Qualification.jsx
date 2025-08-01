@@ -24,17 +24,18 @@ const educationData = [
 
 const experienceData = [
   {
+    title: "Product Engineer Intern",
+    subtitle: "UnifyApps",
+    period: "May 2025 - July 2025",
+    role: "Intern"
+  },
+  {
     title: "Technical Intern",
     subtitle: "TechSaksham : Edunet Foundation",
     period: "Feb 2025 - March 2025",
     role: "Intern"
   },
-  {
-    title: "Software Intern",
-    subtitle: "Developed an AI SaaS Application",
-    period: "Nov 2024 - Dec 2024",
-    role: "NextJS Developer"
-  }
+  
 ];
 // Leetcode GeeksForGeeks Codeforces Codechef
 const achievementData =[
