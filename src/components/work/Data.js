@@ -12,7 +12,7 @@ import PrepWise from "../../assets/prep.webp"
 
 export const projectsData = [
     {
-        id: 1,
+        id: 11,
         image: PrepWise,
         title: 'PrepWise',
         category: 'major',
