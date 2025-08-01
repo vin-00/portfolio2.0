@@ -8,8 +8,18 @@ import TravelNest from "../../assets/travelNest.png"
 import SharePrompt from "../../assets/sharePrompt.png"
 import money from "../../assets/money.png"
 import chat from "../../assets/whatsapp.webp"
+import PrepWise from "../../assets/prep.webp"
 
 export const projectsData = [
+    {
+        id: 1,
+        image: PrepWise,
+        title: 'PrepWise',
+        category: 'major',
+        link: 'https://code-clash-brown.vercel.app',
+        github: 'https://github.com/vin-00/codeForBharat',
+        description: 'PrepWise is an AI-powered interview preparation platform designed to help job seekers practice and improve their interview skills.'
+    },
     {
         id: 1,
         image: DevPad,
