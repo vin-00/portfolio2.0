@@ -29,7 +29,7 @@ const Footer = () => {
                 <a href='mailto: vinaykhatri292@gmail.com' className='footer__social-icon' target='_blank'>
                     <i className='uil uil-envelope'></i>
                 </a>
-                <a href='https://www.instagram.com/vinay_khatri29/' className='footer__social-icon' target='_blank'>
+                <a href='https://www.instagram.com/0_vinay_khatri_0/' className='footer__social-icon' target='_blank'>
                     <i className='uil uil-instagram'></i>
                 </a>
             </div>

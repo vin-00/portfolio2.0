@@ -23,7 +23,7 @@ const Featured = () => {
       platform: "InnoHacks 2024",
       date: "March 2024",
       image: "/featured/Innohacks.jpg",
-      pinned: true,
+      pinned: false,
     },
     {
       id: 3,
@@ -79,6 +79,15 @@ const Featured = () => {
       image: "/featured/amHacks.jpg",
       pinned: true,
     },
+    {
+      id: 9,
+      type: 'achievement',
+      title: "Secured 1st position in Buildathon",
+      platform: "Material Plus",
+      date: "August 2025",
+      image: "/featured/buildathon.jpg",
+      pinned: true,
+    }
   ].sort((a, b) => {
     // First sort by pinned status
     if (a.pinned && !b.pinned) return -1;

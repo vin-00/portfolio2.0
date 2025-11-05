@@ -40,6 +40,13 @@ const experienceData = [
 // Leetcode GeeksForGeeks Codeforces Codechef
 const achievementData =[
   {
+    title: "Secured 1st position in Buildathon",
+    subtitle: "Material Plus",
+    period: "August 2025",
+    cgpa: "1st Position",
+    link:"https://www.linkedin.com/feed/update/urn:li:activity:7368102055061700608/"
+  },
+  {
     title: "Secured 2nd position in AM Hackathon",
     subtitle: "AM Hackathon IGDTU",
     period: "April 2025",
